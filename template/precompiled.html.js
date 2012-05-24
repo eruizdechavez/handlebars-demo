@@ -1,0 +1,1 @@
+(function(){var a=Handlebars.template,b=Handlebars.templates=Handlebars.templates||{};b["precompiled.html"]=a(function(a,b,c,d,e){c=c||a.helpers;var f="",g,h,i=this,j="function",k=c.helperMissing,l=void 0,m=this.escapeExpression;return f+="<h1>3. ",h=c.text,g=h||b.text,typeof g===j?g=g.call(b,{hash:{}}):g===l&&(g=k.call(b,"text",{hash:{}})),f+=m(g)+"</h1>",f})})()

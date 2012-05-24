@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<!-- Some containers to play with -->
+	<div id="inline"></div>
+	<div id="ajax"></div>
+	<div id="precompiled"></div>
+
+	<!-- JS Libraries loaded from external CDN -->
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0.beta6/handlebars.min.js"></script>
+
+	<!-- Our templates, before the code to ensure availability -->
+	<script type="text/javascript" src="template/precompiled.html.js"></script>
+	<script type="text/html" id="inline-template">
+		<h1>1. {{text}}</h1>
+	</script>
+
+	<!-- Our code -->
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
